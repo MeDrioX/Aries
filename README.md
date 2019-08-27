@@ -1,4 +1,4 @@
-# aries
+# Aries
 
 Un Framework PHP permetant d'aider les développeurs
 
