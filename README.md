@@ -84,6 +84,17 @@ $user->set('field_name', 'value');
 $user->save();
 ```
 
+## Système de session
+
+Un système de session simple pour vous facilité la tâche.
+
+Utilisation :
+```
+SessionManager::getSession(session_name) > Retourne la valeur de la session ayant pour nom "session_name"
+SessionManager::delete(session_name) > Supprimer la session (Pour supprimer toutes les session laisser session_name vide)
+SessionManager::set(session_name, value) > Ajoute une session pour nom "session_name" et pour valeur "value"
+```
+
 ## Fin
 
 Si vous rencontrer des soucis n'hésitez pas à me contacter et rejoindre le Discord de Aries : https://discord.gg/KkY6bfa
